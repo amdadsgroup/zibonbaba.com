@@ -1,0 +1,407 @@
+FULL FUNCTIONALITY & PRODUCTION-READY IMPLEMENTATION
+
+IMPORTANT:
+
+Do not create only UI screens or placeholder pages.
+
+Build a fully functional, production-ready platform with complete frontend, backend, database, API, authentication, authorization, validations, business logic, workflows, and integrations.
+
+Every button, form, module, report, dashboard, and action must work with real data and proper backend functionality.
+
+AUTHENTICATION SYSTEM
+
+Implement a complete enterprise authentication system.
+
+Features:
+
+* User Registration
+* Customer Registration
+* Vendor Registration
+* Admin Registration (Restricted)
+* Login
+* Logout
+* Email Verification
+* OTP Verification
+* Mobile Verification
+* Forgot Password
+* Reset Password
+* Change Password
+* Session Management
+* Remember Me
+* Device Management
+* Login Activity Tracking
+* Account Lock Protection
+* Multi-Factor Authentication (MFA)
+* Google Login
+* Facebook Login
+* Apple Login
+* JWT Authentication
+* Refresh Token System
+
+AUTHORIZATION SYSTEM
+
+Implement Role-Based Access Control (RBAC).
+
+Roles:
+
+* Super Admin
+* Admin
+* Manager
+* Vendor
+* Vendor Staff
+* Customer
+* Delivery Staff
+* Accountant
+* Support Agent
+
+Permissions:
+
+* Create
+* Read
+* Update
+* Delete
+* Approve
+* Reject
+* Export
+* Manage Settings
+
+Permission system must be dynamic and manageable from the Admin Panel.
+
+USER MANAGEMENT
+
+Implement complete user management.
+
+Features:
+
+* User Creation
+* User Editing
+* User Suspension
+* User Activation
+* User Verification
+* User Role Assignment
+* User Permission Assignment
+* User Activity Logs
+* Login History
+* Security Logs
+
+CUSTOMER MANAGEMENT
+
+Fully functional customer module.
+
+Features:
+
+* Customer Registration
+* Profile Management
+* Address Management
+* Wishlist
+* Cart
+* Order History
+* Reviews
+* Returns
+* Refund Requests
+* Notifications
+* Wallet Management
+
+VENDOR MANAGEMENT
+
+Complete vendor ecosystem.
+
+Features:
+
+* Vendor Registration
+* Vendor Approval
+* Vendor Verification
+* Store Creation
+* Store Settings
+* Store Branding
+* Product Management
+* Inventory Management
+* Employee Management
+* Warehouse Management
+* Analytics
+* Sales Reports
+
+PRODUCT MANAGEMENT
+
+Implement complete product workflow.
+
+Features:
+
+* Product Create
+* Product Edit
+* Product Delete
+* Product Approval
+* Product Variants
+* Product Attributes
+* SKU Generation
+* Barcode Generation
+* Bulk Upload
+* Bulk Import
+* Bulk Export
+* Product SEO
+* Product Reviews
+
+CATEGORY MANAGEMENT
+
+Features:
+
+* Unlimited Categories
+* Subcategories
+* Nested Categories
+* Category Images
+* SEO URLs
+* Category Sorting
+
+ORDER MANAGEMENT
+
+Complete order lifecycle.
+
+Workflow:
+
+Pending
+→ Confirmed
+→ Processing
+→ Packed
+→ Shipped
+→ Out for Delivery
+→ Delivered
+
+Additional States:
+
+* Cancelled
+* Returned
+* Refunded
+* Failed
+
+Features:
+
+* Order Creation
+* Invoice Generation
+* Delivery Tracking
+* Shipping Labels
+* Status Updates
+* Customer Notifications
+
+PAYMENT SYSTEM
+
+Implement complete payment gateway architecture.
+
+Bangladesh:
+
+* SSLCommerz
+* bKash
+* Nagad
+* Rocket
+
+International:
+
+* Stripe
+* PayPal
+
+Features:
+
+* Payment Verification
+* Payment Logs
+* Refund Processing
+* Transaction Reports
+
+INVENTORY MANAGEMENT
+
+Fully functional inventory system.
+
+Features:
+
+* Stock Tracking
+* Stock Adjustment
+* Stock Transfer
+* Inventory Alerts
+* Low Stock Alerts
+* Warehouse Inventory
+* Purchase Management
+
+WAREHOUSE MANAGEMENT
+
+Features:
+
+* Multiple Warehouses
+* Warehouse Transfer
+* Warehouse Stock Tracking
+* Warehouse Reports
+* Location Management
+
+ERP MODULE
+
+Implement complete ERP functionality.
+
+Modules:
+
+* POS
+* CRM
+* Supplier Management
+* Purchase Management
+* Expense Management
+* Employee Management
+* Payroll
+* Inventory
+* Warehouses
+* Accounting Reports
+
+POS SYSTEM
+
+Features:
+
+* Barcode Scanner Support
+* Product Search
+* Cart Management
+* Invoice Printing
+* Customer Selection
+* Discount System
+* Tax Calculation
+* Cash Register Management
+
+CRM SYSTEM
+
+Features:
+
+* Customer Profiles
+* Customer Segmentation
+* Customer Notes
+* Communication Logs
+* Lead Management
+* Sales Funnel
+
+NOTIFICATION SYSTEM
+
+Implement real-time notifications.
+
+Channels:
+
+* In-App
+* Email
+* SMS
+* Push Notifications
+
+Events:
+
+* Registration
+* Login
+* Order Updates
+* Payment Updates
+* Refund Updates
+* Promotions
+
+MARKETING SYSTEM
+
+Features:
+
+* Coupons
+* Promo Codes
+* Flash Sales
+* Campaign Management
+* Referral Program
+* Affiliate Program
+* Email Marketing
+* SMS Marketing
+
+ANALYTICS & REPORTS
+
+Generate real-time dashboards.
+
+Reports:
+
+* Sales Reports
+* Revenue Reports
+* Product Reports
+* Vendor Reports
+* Customer Reports
+* Inventory Reports
+* Profit & Loss Reports
+* Performance Reports
+
+AI AUTOMATION
+
+Implement:
+
+* Product Recommendations
+* Smart Search
+* AI Analytics
+* Inventory Forecasting
+* Fraud Detection
+* Sales Prediction
+* Customer Insights
+
+API REQUIREMENTS
+
+Generate complete REST APIs.
+
+For every module provide:
+
+* Endpoint
+* Method
+* Request Payload
+* Response Structure
+* Validation Rules
+* Authentication Requirements
+
+DATABASE REQUIREMENTS
+
+Create production-ready database architecture.
+
+Include:
+
+* Relationships
+* Indexes
+* Foreign Keys
+* Constraints
+* Soft Deletes
+* Audit Logs
+* Activity Logs
+
+SECURITY REQUIREMENTS
+
+Implement enterprise-level security.
+
+Features:
+
+* JWT Authentication
+* Refresh Tokens
+* MFA
+* RBAC
+* CSRF Protection
+* XSS Protection
+* SQL Injection Protection
+* Rate Limiting
+* IP Blocking
+* Audit Logging
+* Security Monitoring
+
+TESTING REQUIREMENTS
+
+Generate:
+
+* Unit Tests
+* Integration Tests
+* API Tests
+* Security Tests
+* Load Tests
+* End-to-End Tests
+
+DEPLOYMENT REQUIREMENTS
+
+Generate:
+
+* Docker Configuration
+* CI/CD Pipeline
+* Environment Variables
+* Production Setup
+* Monitoring System
+* Backup System
+* Disaster Recovery Plan
+
+FINAL OUTPUT
+
+The generated project must be a fully functional SaaS marketplace and ERP platform with complete business logic, working APIs, real database operations, production-ready authentication, role-based authorization, and enterprise-grade architecture.
+
+No placeholders, no dummy screens, no incomplete modules.
+
+Every feature must be implemented with real functionality and connected workflows.

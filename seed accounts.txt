@@ -1,0 +1,18 @@
+Platform Superadmin: admin@zibonbaba.com (password: Password123!)
+Vendor Admin: vendor@zibonbaba.com (password: Password123!)
+Customer Account: customer@zibonbaba.com (password: Password123!)
+
+superadmin@zibonbaba.com → SUPER_ADMIN
+admin@zibonbaba.com → ADMIN
+manager@zibonbaba.com → MANAGER
+accountant@zibonbaba.com → ACCOUNTANT
+support@zibonbaba.com → CUSTOMER_SUPPORT
+marketing@zibonbaba.com → MARKETING
+warehouse@zibonbaba.com → WAREHOUSE_MANAGER
+inventory@zibonbaba.com → INVENTORY_MANAGER
+delivery@zibonbaba.com → DELIVERY_MANAGER
+vendor@zibonbaba.com → VENDOR_ADMIN (Seller Accounts)
+staff@zibonbaba.com → VENDOR_STAFF (Seller Staff Accounts)
+customer@zibonbaba.com → CUSTOMER
+reseller@zibonbaba.com → RESELLER (New)
+courier@zibonbaba.com → DELIVERY_MAN (New)

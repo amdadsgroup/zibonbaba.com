@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "serverUrl": "https://mcp.supabase.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_SUPABASE_PERSONAL_ACCESS_TOKEN"
+      }
+    },
+    "supabase-postgres": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "npx.cmd",
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres.ikocqacatdvhrameqeox:%40Needelectro2025@aws-1-ap-northeast-2.pooler.supabase.com:5432/postgres"
+      ]
+    },
+    "github": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "npx.cmd",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+      }
+    }
+  }
+}

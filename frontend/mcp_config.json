@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "supabase-postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres.ikocqacatdvhrameqeox:%40Needelectro2025@aws-1-ap-northeast-2.pooler.supabase.com:5432/postgres"
+      ]
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server"
+      ],
+      "env": {
+        "SUPABASE_URL": "https://ikocqacatdvhrameqeox.supabase.co",
+        "SUPABASE_KEY": "sb_publishable_qC9hzMB61EWQLVH7flBdXA_GurkO2rd"
+      }
+    }
+  }
+}

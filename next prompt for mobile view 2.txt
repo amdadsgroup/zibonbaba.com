@@ -1,0 +1,99 @@
+MOBILE APP-LIKE EXPERIENCE (VERY IMPORTANT)
+
+When users access the platform from a mobile device, the system must automatically switch to a Mobile App UI experience instead of simply shrinking the desktop website.
+
+Requirements:
+
+* Detect mobile devices automatically.
+* Display a fully optimized mobile interface.
+* Mobile experience should feel like a native Android/iOS application.
+* Use bottom navigation bar similar to Amazon, Daraz, and Alibaba mobile apps.
+* Full-screen mobile layouts.
+* Touch-friendly buttons and interactions.
+* Swipe gestures where appropriate.
+* Mobile-first responsive design.
+* Fast loading and optimized performance.
+
+MOBILE NAVIGATION
+
+Bottom Navigation Tabs:
+
+1. Home
+2. Categories
+3. Cart
+4. Orders
+5. Account
+
+Mobile Header:
+
+* Brand Logo
+* Search Bar
+* Notification Icon
+* Cart Icon
+
+MOBILE HOMEPAGE
+
+* Hero Banner Slider
+* Categories Grid
+* Flash Sale Section
+* Featured Products
+* Recommended Products
+* Vendor Highlights
+* Recently Viewed Products
+
+MOBILE PRODUCT PAGE
+
+* Swipeable Product Gallery
+* Sticky Add to Cart Button
+* Sticky Buy Now Button
+* Product Reviews
+* Related Products
+* Vendor Information
+
+MOBILE CUSTOMER DASHBOARD
+
+* Profile Overview
+* Orders
+* Wishlist
+* Addresses
+* Wallet
+* Notifications
+* Settings
+
+PWA (PROGRESSIVE WEB APP)
+
+Build the platform as a Progressive Web App (PWA).
+
+Features:
+
+* Install App button
+* Add to Home Screen
+* Offline Support
+* Push Notifications
+* App Splash Screen
+* Mobile App Icon
+* Native App Feel
+* Fast Loading Cache
+
+MOBILE PERFORMANCE
+
+Target Scores:
+
+* Google Lighthouse 95+
+* Mobile First Indexing
+* Core Web Vitals Optimized
+* Lazy Loading Images
+* Optimized API Requests
+* Fast Page Transitions
+
+DESIGN REQUIREMENT
+
+Desktop:
+
+* Professional Marketplace Dashboard Layout
+
+Mobile:
+
+* Native App Style Interface
+
+The mobile version must look and behave like a real mobile application while using the same backend and database as the web platform.

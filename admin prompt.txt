@@ -1,0 +1,1454 @@
+# Zibonbaba.com — Phase 1 Admin Panel Prompt
+
+Act as a **World-Class Product Designer, UI/UX Architect, Senior Full-Stack Engineer, SaaS Architect, and Enterprise Dashboard Specialist**.
+
+Design and build a **premium, enterprise-grade Admin Panel for Zibonbaba.com**, a multi-vendor e-commerce marketplace.
+
+The Admin Panel must be production-ready, responsive, scalable, secure, fast, and connected to real backend data. Do not create a static demo dashboard. Every major component should be structured for dynamic API integration.
+
+---
+
+## 1. PLATFORM CONTEXT
+
+**Platform:** Zibonbaba.com
+**Type:** Multi-Vendor E-Commerce Marketplace
+**Phase:** Phase 1 — Marketplace Core
+
+The Admin Panel is the central control system for managing:
+
+* Customers
+* Vendors
+* Stores
+* Products
+* Categories
+* Brands
+* Orders
+* Payments
+* Commissions
+* Reviews
+* Banners
+* Campaigns
+* Notifications
+* Reports
+* Admin users
+* Roles & permissions
+* Platform settings
+* Security and audit logs
+
+The architecture must be prepared for future:
+
+* POS
+* ERP
+* CRM
+* Warehouse
+* Branch
+* Supplier
+* Finance
+* AI
+* Advanced analytics
+
+---
+
+# 2. BRAND IDENTITY
+
+Use the Zibonbaba brand system.
+
+### Primary
+
+* Premium Yellow: `#FFC107`
+* Accent Yellow: `#FFB800`
+
+### Neutral
+
+* White: `#FFFFFF`
+* Dark Gray: `#1F2937`
+* Light Gray: `#F8F9FA`
+
+### Status
+
+* Success: `#22C55E`
+* Warning: `#F59E0B`
+* Error: `#EF4444`
+
+### Typography
+
+Use:
+
+**Inter**
+
+Typography must have:
+
+* Strong hierarchy
+* High readability
+* Proper line height
+* Accessible contrast
+* Professional enterprise appearance
+
+---
+
+# 3. DESIGN DIRECTION
+
+Create an interface inspired by modern enterprise SaaS platforms such as:
+
+* Shopify Admin
+* Amazon Seller/Admin systems
+* Stripe Dashboard
+* Linear
+* Vercel
+* modern ERP platforms
+
+Do NOT copy their designs.
+
+Create an original Zibonbaba design language.
+
+The interface should feel:
+
+* Premium
+* Clean
+* Trustworthy
+* Fast
+* Professional
+* Data-driven
+* Modern
+* Enterprise-grade
+
+Avoid:
+
+* Excessive yellow
+* Heavy gradients
+* Cluttered dashboards
+* Excessive borders
+* Unnecessary animations
+* Oversized UI elements
+
+Use yellow primarily for:
+
+* Primary actions
+* Active navigation
+* Important highlights
+* Selected states
+* Key metrics
+* Brand accents
+
+---
+
+# 4. ADMIN LOGIN
+
+Create a dedicated Admin authentication flow.
+
+Admin login should be separate from customer and seller login.
+
+Recommended route:
+
+`/admin/login`
+
+Design:
+
+* Zibonbaba logo
+* Email/username
+* Password
+* Remember me
+* Login button
+* Forgot password
+* Security messaging
+* Optional 2FA-ready interface
+
+Do not allow customer or seller credentials to access the Admin Panel.
+
+---
+
+# 5. ADMIN LAYOUT
+
+Create a responsive SaaS dashboard layout.
+
+### Desktop
+
+Left sidebar + top navigation + content area.
+
+### Tablet
+
+Collapsible sidebar.
+
+### Mobile
+
+Bottom navigation or slide-out navigation with optimized dashboard screens.
+
+---
+
+# 6. SIDEBAR
+
+Create a professional collapsible sidebar.
+
+### Main Navigation
+
+**Overview**
+
+* Dashboard
+
+**Marketplace**
+
+* Vendors
+* Stores
+* Customers
+* Products
+* Categories
+* Brands
+* Orders
+* Reviews
+
+**Commerce**
+
+* Payments
+* Commissions
+* Refunds
+* Returns
+
+**Marketing**
+
+* Campaigns
+* Coupons
+* Flash Sales
+* Banners
+
+**Communication**
+
+* Notifications
+* Announcements
+
+**Reports**
+
+* Sales Reports
+* Vendor Reports
+* Product Reports
+* Customer Reports
+
+**Administration**
+
+* Admin Users
+* Roles & Permissions
+* Audit Logs
+* Security
+
+**Settings**
+
+* Platform Settings
+* Payment Settings
+* Shipping Settings
+* Notification Settings
+* General Settings
+
+Future modules should appear as disabled/coming-soon sections only if appropriate:
+
+* POS
+* ERP
+* CRM
+* Warehouse
+* AI
+
+Do not clutter Phase 1 with unfinished functionality.
+
+---
+
+# 7. TOP NAVIGATION
+
+Create:
+
+* Sidebar toggle
+* Global search
+* Notifications
+* Quick actions
+* Help
+* Admin profile
+* Theme/settings access
+
+Admin profile dropdown:
+
+* Profile
+* Account Settings
+* Security
+* Logout
+
+---
+
+# 8. ADMIN DASHBOARD
+
+Create a premium analytics dashboard.
+
+### Header
+
+Display:
+
+**Good morning, Admin**
+
+Subtitle:
+
+**Here's what's happening across Zibonbaba today.**
+
+Include date range selector:
+
+* Today
+* Yesterday
+* Last 7 Days
+* Last 30 Days
+* This Month
+* Custom Range
+
+---
+
+# 9. KPI CARDS
+
+Create high-quality analytics cards.
+
+### Total Revenue
+
+Display:
+
+* Current revenue
+* Percentage growth
+* Comparison period
+* Small trend indicator
+
+### Total Orders
+
+Display:
+
+* Orders
+* Growth percentage
+
+### Total Customers
+
+Display:
+
+* Registered customers
+* New customers
+
+### Total Vendors
+
+Display:
+
+* Active vendors
+* Pending vendors
+
+### Products
+
+Display:
+
+* Total products
+* Pending approval
+
+### Platform Commission
+
+Display:
+
+* Total commission
+* Growth
+
+Cards must support loading, empty and error states.
+
+---
+
+# 10. REVENUE ANALYTICS
+
+Create an interactive chart.
+
+Show:
+
+* Revenue
+* Orders
+* Commission
+
+Allow:
+
+* Daily
+* Weekly
+* Monthly
+* Yearly
+
+Hovering over chart points should show detailed information.
+
+---
+
+# 11. ORDER ANALYTICS
+
+Create:
+
+* Total Orders
+* Pending
+* Processing
+* Shipped
+* Delivered
+* Cancelled
+* Refunded
+
+Use clear status indicators.
+
+---
+
+# 12. VENDOR ANALYTICS
+
+Create a vendor performance section.
+
+Show:
+
+* Top Vendors
+* Revenue
+* Orders
+* Products
+* Rating
+* Commission generated
+
+Actions:
+
+* View Store
+* View Vendor
+* Suspend Vendor
+
+---
+
+# 13. PRODUCT ANALYTICS
+
+Display:
+
+* Top-selling products
+* Most viewed products
+* Low-stock products
+* Pending products
+* Rejected products
+
+Product table should include:
+
+* Product image
+* Product name
+* Vendor
+* SKU
+* Price
+* Stock
+* Sales
+* Status
+* Actions
+
+---
+
+# 14. CUSTOMER ANALYTICS
+
+Show:
+
+* Total customers
+* New customers
+* Active customers
+* Repeat customers
+* Top customers
+
+Include a customer growth chart.
+
+---
+
+# 15. RECENT ORDERS
+
+Create a professional data table.
+
+Columns:
+
+* Order ID
+* Customer
+* Vendor
+* Items
+* Amount
+* Payment
+* Status
+* Date
+* Actions
+
+Actions:
+
+* View
+* Edit status
+* Cancel
+* Refund
+
+Use pagination.
+
+Never load thousands of records at once.
+
+---
+
+# 16. VENDOR MANAGEMENT
+
+Create a complete vendor management module.
+
+### Vendor List
+
+Columns:
+
+* Vendor
+* Store
+* Email
+* Phone
+* Products
+* Orders
+* Revenue
+* Rating
+* Status
+* Registration date
+* Actions
+
+Filters:
+
+* Status
+* Date
+* Revenue
+* Rating
+* Verification
+
+Search vendors by:
+
+* Name
+* Email
+* Phone
+* Store name
+
+---
+
+# 17. VENDOR APPROVAL
+
+Create vendor approval workflow.
+
+Statuses:
+
+* Pending
+* Under Review
+* Approved
+* Rejected
+* Suspended
+
+Admin can:
+
+* Review application
+* View documents
+* Approve
+* Reject
+* Request information
+* Suspend
+
+Show confirmation dialogs before destructive actions.
+
+---
+
+# 18. VENDOR DETAIL PAGE
+
+Create a complete vendor profile.
+
+Sections:
+
+### Overview
+
+* Store information
+* Owner
+* Contact information
+* Verification status
+
+### Performance
+
+* Revenue
+* Orders
+* Products
+* Rating
+* Commission
+
+### Products
+
+Vendor products.
+
+### Orders
+
+Vendor orders.
+
+### Reviews
+
+Customer reviews.
+
+### Financial
+
+* Earnings
+* Commission
+* Payouts
+* Pending balance
+
+### Activity
+
+Recent vendor activity.
+
+---
+
+# 19. CUSTOMER MANAGEMENT
+
+Create customer management.
+
+Customer table:
+
+* Customer
+* Email
+* Phone
+* Orders
+* Total spent
+* Last order
+* Status
+* Registration date
+
+Customer detail page:
+
+* Profile
+* Orders
+* Wishlist
+* Reviews
+* Addresses
+* Purchase history
+* Account activity
+
+Admin actions:
+
+* View
+* Disable
+* Enable
+* Reset password
+* View activity
+
+---
+
+# 20. PRODUCT MANAGEMENT
+
+Create complete product administration.
+
+### Product List
+
+Columns:
+
+* Image
+* Product
+* SKU
+* Vendor
+* Category
+* Price
+* Stock
+* Sales
+* Status
+* Date
+* Actions
+
+Filters:
+
+* Vendor
+* Category
+* Brand
+* Status
+* Stock
+* Price
+
+Statuses:
+
+* Draft
+* Pending Approval
+* Published
+* Rejected
+* Suspended
+* Out of Stock
+
+---
+
+# 21. PRODUCT APPROVAL
+
+Create a dedicated moderation workflow.
+
+Admin can:
+
+* View product
+* View images
+* View variants
+* View pricing
+* View seller
+* Approve
+* Reject
+* Request changes
+* Suspend
+
+When rejecting a product, require a reason.
+
+---
+
+# 22. CATEGORY MANAGEMENT
+
+Create:
+
+* Category list
+* Subcategory list
+* Add category
+* Edit category
+* Delete category
+* Category image
+* SEO settings
+* Category status
+
+Support hierarchical categories:
+
+```text
+Electronics
+ ├── Computers
+ │    ├── Laptops
+ │    ├── Desktops
+ │    └── Accessories
+ │
+ └── Mobile
+      ├── Smartphones
+      └── Tablets
+```
+
+Use a tree interface where appropriate.
+
+---
+
+# 23. BRAND MANAGEMENT
+
+Create:
+
+* Brand list
+* Brand logo
+* Brand description
+* Category association
+* SEO metadata
+* Status
+
+---
+
+# 24. ORDER MANAGEMENT
+
+Create a complete order management system.
+
+Order statuses:
+
+* Pending
+* Confirmed
+* Processing
+* Packed
+* Shipped
+* Delivered
+* Cancelled
+* Returned
+* Refunded
+
+Order detail should show:
+
+### Customer
+
+* Name
+* Contact
+* Address
+
+### Vendor
+
+* Store
+* Seller
+
+### Products
+
+* Product
+* Variant
+* Quantity
+* Price
+
+### Payment
+
+* Method
+* Amount
+* Status
+* Transaction ID
+
+### Shipping
+
+* Address
+* Method
+* Tracking number
+* Status
+
+### Timeline
+
+Show:
+
+```text
+Order Placed
+     ↓
+Confirmed
+     ↓
+Processing
+     ↓
+Shipped
+     ↓
+Delivered
+```
+
+---
+
+# 25. COMMISSION MANAGEMENT
+
+Create marketplace commission management.
+
+Admin can define:
+
+* Global commission
+* Category commission
+* Vendor-specific commission
+* Product-specific commission
+
+Example:
+
+```text
+Electronics → 5%
+Fashion → 8%
+Beauty → 10%
+```
+
+Show:
+
+* Gross order value
+* Commission
+* Seller earnings
+* Platform earnings
+
+Never rely on frontend calculations for financial data.
+
+---
+
+# 26. PAYMENT MANAGEMENT
+
+Create:
+
+* Payment transactions
+* Payment status
+* Payment methods
+* Transaction ID
+* Amount
+* Order
+* Customer
+* Vendor
+* Date
+
+Statuses:
+
+* Pending
+* Paid
+* Failed
+* Refunded
+* Partially Refunded
+
+---
+
+# 27. REVIEW MANAGEMENT
+
+Create review moderation.
+
+Admin can:
+
+* View reviews
+* Approve
+* Hide
+* Delete
+* Flag
+* Respond
+
+Display:
+
+* Customer
+* Product
+* Vendor
+* Rating
+* Review
+* Date
+* Status
+
+---
+
+# 28. MARKETING MANAGEMENT
+
+Create:
+
+### Campaigns
+
+* Create campaign
+* Start/end date
+* Discount
+* Target products
+* Target categories
+* Target vendors
+* Status
+
+### Flash Sales
+
+* Product
+* Sale price
+* Start time
+* End time
+* Stock limit
+
+### Coupons
+
+* Coupon code
+* Discount type
+* Minimum order
+* Maximum discount
+* Usage limit
+* Expiration
+
+### Banners
+
+Create banner management with:
+
+* Desktop image
+* Mobile image
+* CTA
+* URL
+* Start/end date
+* Status
+* Sort order
+
+---
+
+# 29. NOTIFICATION CENTER
+
+Create centralized notifications.
+
+Types:
+
+* Vendor approval
+* New order
+* Payment
+* Product approval
+* Customer report
+* Security alert
+* System announcement
+
+Support:
+
+* Read/unread
+* Notification type
+* Timestamp
+* Deep link
+
+---
+
+# 30. REPORTING
+
+Create a professional reports section.
+
+Reports:
+
+### Sales
+
+* Revenue
+* Orders
+* Average order value
+* Growth
+
+### Vendor
+
+* Vendor revenue
+* Vendor orders
+* Commission
+* Performance
+
+### Product
+
+* Sales
+* Views
+* Conversion
+* Stock
+
+### Customer
+
+* New customers
+* Repeat customers
+* Customer value
+
+Allow:
+
+* Date filters
+* Export CSV
+* Export Excel
+* Print-ready reports
+
+---
+
+# 31. ADMIN USERS
+
+Create admin account management.
+
+Fields:
+
+* Name
+* Email
+* Phone
+* Role
+* Status
+* Last login
+* Created date
+
+Actions:
+
+* Create
+* Edit
+* Disable
+* Delete
+* Reset password
+
+---
+
+# 32. ROLES & PERMISSIONS
+
+Implement granular RBAC.
+
+Example permissions:
+
+```text
+vendor.view
+vendor.approve
+vendor.suspend
+
+product.view
+product.create
+product.edit
+product.delete
+product.approve
+
+order.view
+order.update
+order.cancel
+order.refund
+
+customer.view
+customer.disable
+
+campaign.create
+campaign.edit
+
+finance.view
+commission.manage
+
+settings.manage
+admin.manage
+audit.view
+```
+
+Never rely only on frontend route protection.
+
+Every permission must be validated on the backend.
+
+---
+
+# 33. AUDIT LOGS
+
+Create an enterprise audit system.
+
+Record:
+
+* Admin
+* Action
+* Resource
+* Resource ID
+* IP address
+* Timestamp
+* Before value
+* After value
+
+Example:
+
+```text
+Admin John approved Product #ZB1234
+24 Aug 2026, 7:15 PM
+```
+
+Audit logs must be immutable to normal admins.
+
+---
+
+# 34. SECURITY CENTER
+
+Create a security dashboard.
+
+Show:
+
+* Failed login attempts
+* Active sessions
+* Suspicious activity
+* Admin login history
+* Security alerts
+* Account lockouts
+
+Prepare the interface for:
+
+* 2FA
+* IP restrictions
+* Session revocation
+* Device management
+
+---
+
+# 35. GLOBAL SEARCH
+
+Implement powerful admin search.
+
+Search across:
+
+* Vendors
+* Customers
+* Products
+* Orders
+* Stores
+
+Example:
+
+```text
+Search "ZB10023"
+```
+
+should identify the order.
+
+Search should support keyboard shortcut:
+
+`Ctrl + K`
+
+---
+
+# 36. TABLE SYSTEM
+
+Create a reusable enterprise data-table component.
+
+Features:
+
+* Search
+* Filters
+* Sorting
+* Pagination
+* Column visibility
+* Bulk selection
+* Bulk actions
+* Export
+* Loading state
+* Empty state
+* Error state
+
+Tables must work well on mobile.
+
+---
+
+# 37. FORM SYSTEM
+
+Create reusable forms using:
+
+* Labels
+* Helper text
+* Validation
+* Error states
+* Required indicators
+* Loading states
+* Success states
+
+Use consistent:
+
+* Input
+* Select
+* Multi-select
+* Date picker
+* File upload
+* Rich text editor
+* Toggle
+* Checkbox
+* Radio
+* Modal
+
+---
+
+# 38. UX STATES
+
+Every major page must support:
+
+### Loading
+
+Skeleton UI.
+
+### Empty
+
+Example:
+
+> No vendors found.
+
+### Error
+
+Example:
+
+> Unable to load vendors. Please try again.
+
+### Success
+
+Use confirmation/toast notifications.
+
+### Destructive Action
+
+Always show confirmation.
+
+---
+
+# 39. RESPONSIVE DESIGN
+
+Desktop:
+
+Full sidebar + analytics dashboard.
+
+Tablet:
+
+Collapsible sidebar.
+
+Mobile:
+
+Optimized cards and tables.
+
+Never simply shrink the desktop interface.
+
+Redesign layouts intelligently for smaller screens.
+
+---
+
+# 40. ACCESSIBILITY
+
+Follow WCAG principles.
+
+Ensure:
+
+* Keyboard navigation
+* Proper labels
+* Focus states
+* Screen reader support
+* Sufficient contrast
+* Accessible buttons
+* Accessible forms
+* Meaningful error messages
+
+Do not use color alone to communicate status.
+
+---
+
+# 41. PERFORMANCE
+
+Optimize for:
+
+* Fast initial load
+* Code splitting
+* Lazy loading
+* Server-side rendering where appropriate
+* Efficient API requests
+* Query caching
+* Pagination
+* Image optimization
+
+Use React Query for server-state management.
+
+Use Zustand only for appropriate client-side state.
+
+Do not duplicate server state unnecessarily.
+
+---
+
+# 42. TECH STACK
+
+### Frontend
+
+* Next.js 15
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* React Query
+* Zustand
+
+### Backend
+
+* Node.js
+* Express.js
+* TypeScript
+* REST API
+
+### Database
+
+* PostgreSQL
+* Prisma ORM
+
+### Authentication
+
+* JWT
+* Refresh tokens
+* RBAC
+
+### Storage
+
+* AWS S3 or Cloudinary
+
+### Deployment
+
+Frontend:
+
+* Vercel
+
+Backend:
+
+* VPS
+* Docker
+
+Database:
+
+* Production PostgreSQL
+
+---
+
+# 43. IMPORTANT ARCHITECTURAL REQUIREMENT
+
+Do not build the Admin Panel as a standalone fake interface.
+
+All modules must be designed around real entities:
+
+```text
+Admin
+Vendor
+Store
+Customer
+Product
+ProductVariant
+Category
+Brand
+Order
+OrderItem
+SellerOrder
+Payment
+Commission
+Review
+Campaign
+Coupon
+Banner
+Notification
+AuditLog
+Role
+Permission
+```
+
+The system must be designed so that each record has proper relationships and authorization.
+
+---
+
+# 44. MULTI-VENDOR SECURITY
+
+A vendor must never access another vendor's data.
+
+Admin can access platform-wide data.
+
+Use server-side authorization and tenant isolation.
+
+Never trust:
+
+* Frontend vendorId
+* Frontend role
+* LocalStorage role
+* Client-provided ownership information
+
+Always validate ownership and permissions on the backend.
+
+---
+
+# 45. DEVELOPMENT REQUIREMENT
+
+Build the Admin Panel as reusable modules rather than one giant page.
+
+Use:
+
+* Reusable components
+* Reusable tables
+* Reusable forms
+* Reusable filters
+* Reusable modals
+* Reusable charts
+* Reusable status badges
+* Reusable permission checks
+
+Maintain clean separation between:
+
+* UI
+* API services
+* State
+* Types
+* Business logic
+
+---
+
+# 46. PHASE 1 PRIORITY
+
+Prioritize these modules first:
+
+### P0 — Critical
+
+1. Admin Authentication
+2. Admin Dashboard
+3. Vendor Management
+4. Customer Management
+5. Product Management
+6. Product Approval
+7. Category Management
+8. Order Management
+9. Commission Management
+10. Admin Users
+11. Roles & Permissions
+
+### P1 — Important
+
+12. Brand Management
+13. Review Management
+14. Payment Management
+15. Banner Management
+16. Campaign Management
+17. Notifications
+18. Reports
+19. Audit Logs
+20. Security Center
+
+### P2 — Future
+
+21. POS
+22. ERP
+23. CRM
+24. Warehouse
+25. Branches
+26. Supplier Management
+27. AI Analytics
+
+Do not implement P2 as full functionality during Phase 1.
+
+---
+
+# 47. FINAL QUALITY STANDARD
+
+The final Admin Panel should feel like a **real enterprise SaaS control center**, not a template dashboard.
+
+It should be:
+
+* Premium
+* Minimal
+* Fast
+* Responsive
+* Accessible
+* Secure
+* Data-driven
+* Scalable
+* Multi-vendor ready
+* API-driven
+* Production-ready
+
+The interface must maintain Zibonbaba's **Yellow + White identity** while using neutral colors extensively for professional enterprise readability.
+
+Most importantly:
+
+**Do not hardcode marketplace data.**
+
+Build the interface so it can consume real PostgreSQL/Prisma/Express API data and operate as the central administrative control plane of Zibonbaba.com.

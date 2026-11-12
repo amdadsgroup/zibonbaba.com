@@ -1,0 +1,292 @@
+Act as a world-class Product Designer, UI/UX Architect, Brand Designer, Senior Full-Stack Engineer, and SaaS Platform Architect.
+
+Build a premium enterprise-grade web platform called **Zibonbaba.com** — a Multi-Vendor E-Commerce Marketplace & Business Management Ecosystem.
+
+BRAND IDENTITY
+
+Brand Name: Zibonbaba
+
+Primary Color:
+
+* Premium Yellow (#FFC107)
+* Alternative Accent Yellow (#FFB800)
+
+Background:
+
+* Pure White (#FFFFFF)
+
+Secondary Colors:
+
+* Dark Gray (#1F2937)
+* Light Gray (#F8F9FA)
+* Success Green (#22C55E)
+* Warning Orange (#F59E0B)
+* Error Red (#EF4444)
+
+DESIGN STYLE
+
+Create a modern, premium, trustworthy, high-converting marketplace similar to Amazon, Alibaba, Daraz, and Shopify.
+
+Design Principles:
+
+* Clean White Interface
+* Yellow Brand Highlights
+* Modern SaaS Dashboard Design
+* Large White Spaces
+* Soft Shadows
+* Rounded Corners (12px–16px)
+* Glassmorphism for premium sections
+* Smooth Animations
+* Enterprise-Level Professional Look
+* Mobile-First Responsive Design
+
+VISUAL GUIDELINES
+
+Header:
+
+* White background
+* Yellow logo
+* Yellow hover effects
+* Sticky navigation
+
+Buttons:
+
+* Primary: Yellow background, white text
+* Secondary: White background, yellow border
+* Hover: Darker yellow gradient
+
+Cards:
+
+* White cards
+* Soft shadows
+* Yellow accent borders on hover
+
+Dashboard:
+
+* White background
+* Yellow active menu indicators
+* Dark text for readability
+* Premium analytics widgets
+
+Typography:
+
+* Font: Inter
+* Headings: Bold
+* Body: Medium weight
+* High readability
+
+CUSTOMER WEBSITE PAGES
+
+Design and generate:
+
+1. Homepage
+2. Product Listing Page
+3. Product Details Page
+4. Category Page
+5. Cart Page
+6. Checkout Page
+7. Order Tracking Page
+8. Customer Dashboard
+9. Wishlist
+10. Profile Management
+11. Review System
+
+HOMEPAGE STRUCTURE
+
+Hero Section:
+
+* White background
+* Yellow CTA buttons
+* Promotional banners
+* Marketplace search bar
+
+Featured Sections:
+
+* Flash Sales
+* Featured Products
+* Best Sellers
+* Top Categories
+* Vendor Highlights
+* New Arrivals
+
+MARKETPLACE FEATURES
+
+Customer Features:
+
+* Registration & Login
+* Product Search
+* Advanced Filters
+* Wishlist
+* Shopping Cart
+* Secure Checkout
+* Multiple Payment Methods
+* Order Tracking
+* Purchase History
+* Reviews & Ratings
+* Notification Center
+
+Vendor Features:
+
+* Vendor Registration
+* Store Management
+* Product Upload
+* Product Variants
+* Inventory Control
+* Warehouse Management
+* Sales Dashboard
+* Order Processing
+* Employee Management
+* Analytics
+
+Admin Features:
+
+* Vendor Management
+* Customer Management
+* Product Approval
+* Commission Management
+* Category Management
+* Campaign Management
+* Banner Management
+* Role & Permission Management
+* Security Monitoring
+* Audit Logs
+
+ERP & BUSINESS MANAGEMENT
+
+Generate complete modules for:
+
+* POS System
+* CRM
+* Inventory Management
+* Warehouse Management
+* Supplier Management
+* Purchase Management
+* Multi Branch Management
+* Expense Tracking
+* Financial Reports
+* Business Analytics
+
+AI FEATURES
+
+Implement:
+
+* AI Product Recommendations
+* AI Inventory Forecasting
+* AI Sales Insights
+* AI Fraud Detection
+* AI Business Assistant
+* AI Marketing Recommendations
+
+TECHNOLOGY STACK
+
+Frontend:
+
+* Next.js 15
+* TypeScript
+* Tailwind CSS
+* Shadcn UI
+* React Query
+* Zustand
+
+Backend:
+
+* Node.js
+* Express.js
+
+Database:
+
+* PostgreSQL
+* Prisma ORM
+
+Authentication:
+
+* JWT
+* Refresh Tokens
+* RBAC
+
+Storage:
+
+* AWS S3 / Cloudinary
+
+DEPLOYMENT
+
+Frontend:
+
+* Vercel
+
+Backend:
+
+* VPS + Docker
+
+Database:
+
+* PostgreSQL Production Server
+
+UI COMPONENT REQUIREMENTS
+
+Generate complete UI designs for:
+
+* Navbar
+* Mega Menu
+* Product Cards
+* Vendor Cards
+* Analytics Cards
+* Data Tables
+* Forms
+* Charts
+* Notification Center
+* CRM Interface
+* ERP Interface
+
+Every component must follow:
+
+* White Background
+* Yellow Primary Actions
+* Clean Professional Layout
+* Accessibility Compliance
+* Fast Loading
+* SEO Friendly Structure
+
+DASHBOARD DESIGN
+
+Customer Dashboard:
+
+* White interface
+* Yellow statistics cards
+* Order timeline
+* Purchase analytics
+
+Vendor Dashboard:
+
+* Revenue charts
+* Product performance
+* Inventory alerts
+* Order management
+
+Admin Dashboard:
+
+* Platform analytics
+* Vendor performance
+* Revenue overview
+* Security monitoring
+
+OUTPUT REQUIREMENTS
+
+Generate:
+
+1. Complete PRD
+2. Full UI/UX Design System
+3. Color Palette Guide
+4. Typography System
+5. Component Library
+6. Wireframes
+7. Database Schema
+8. API Documentation
+9. Folder Structure
+10. Development Roadmap
+11. Deployment Architecture
+12. Security Architecture
+13. Testing Plan
+14. Scalability Plan
+
+The final product should look premium, modern, trustworthy, and enterprise-grade with a strong Yellow & White brand identity that feels professional, clean, and optimized for maximum user engagement and conversions.
