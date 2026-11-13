@@ -1,0 +1,30 @@
+{
+  "name": "zibonbaba-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zibonbaba.com — Multi-Vendor E-Commerce & SaaS ERP Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:build": "npm --prefix backend run build",
+    "backend:start": "npm --prefix backend run start",
+    "db:generate": "npm --prefix frontend run build",
+    "db:seed": "npm --prefix frontend run seed",
+    "test:live": "node frontend/scripts/check_live_vercel.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "multi-vendor",
+    "erp",
+    "pos",
+    "nextjs",
+    "prisma",
+    "postgresql",
+    "bangladesh"
+  ],
+  "author": "Need Electro",
+  "license": "UNLICENSED"
+}
