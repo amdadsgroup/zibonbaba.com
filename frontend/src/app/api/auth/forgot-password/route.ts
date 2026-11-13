@@ -52,7 +52,12 @@ export async function POST(request: Request) {
     });
 
     // 5. Construct secure reset URL
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com';
+    const origin = request.headers.get('origin') || request.headers.get('referer');
+    let requestHost = '';
+    if (origin) {
+      try { requestHost = new URL(origin).origin; } catch {}
+    }
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || requestHost || 'https://zibonbaba.com';
     const resetUrl = `${baseUrl}/forgot-password?token=${token}&email=${encodeURIComponent(cleanEmail)}`;
 
     // 6. Dispatch private transactional email

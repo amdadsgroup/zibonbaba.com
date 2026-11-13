@@ -12,9 +12,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Zibonbaba.com - Premium Multi-Vendor E-Commerce & SaaS ERP',
-  description: 'Enterprise business management solution combining online multi-vendor retail market, barcode scanning POS, warehouse inventory syncing, CRM logs, and AI forecasting.',
-  keywords: 'Zibonbaba, E-commerce, SaaS, POS system, Enterprise, Inventory management, CRM, Multi-vendor marketplace, Bangladesh',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com'),
+  title: {
+    default: 'Zibonbaba.com - Premium Multi-Vendor E-Commerce & SaaS ERP',
+    template: '%s | Zibonbaba.com'
+  },
+  description: 'Enterprise business management solution combining online multi-vendor retail market, barcode scanning POS, warehouse inventory syncing, CRM logs, and AI forecasting in Bangladesh.',
+  keywords: 'Zibonbaba, E-commerce, SaaS, POS system, Enterprise, Inventory management, CRM, Multi-vendor marketplace, Bangladesh, Online shopping Dhaka',
+  authors: [{ name: 'Zibonbaba Team' }],
+  creator: 'Zibonbaba.com',
+  publisher: 'Zibonbaba.com',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '32x32' },
@@ -24,6 +31,39 @@ export const metadata: Metadata = {
       { url: '/apple-icon.png', sizes: '180x180' },
     ],
     shortcut: '/favicon.ico',
+  },
+  openGraph: {
+    title: 'Zibonbaba.com - Premium Multi-Vendor E-Commerce & SaaS ERP',
+    description: 'Enterprise business management solution combining online multi-vendor retail market, barcode scanning POS, warehouse inventory syncing, and delivery network across Bangladesh.',
+    url: 'https://zibonbaba.com',
+    siteName: 'Zibonbaba.com',
+    images: [
+      {
+        url: '/icons/icon-512x512.png',
+        width: 512,
+        height: 512,
+        alt: 'Zibonbaba Platform',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Zibonbaba.com - Premium Multi-Vendor E-Commerce & SaaS ERP',
+    description: 'Enterprise business management solution combining online multi-vendor retail market, barcode scanning POS, warehouse inventory syncing, and delivery network across Bangladesh.',
+    images: ['/icons/icon-512x512.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 

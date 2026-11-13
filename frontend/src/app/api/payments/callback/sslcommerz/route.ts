@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
     const tranId = formData?.get('tran_id') as string || searchParams.get('tran_id') || '';
     const amount = parseFloat(formData?.get('amount') as string || '0');
 
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com';
+    const baseUrl = req.nextUrl?.origin || process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com';
 
     if (status === 'VALID' || status === 'VALIDATED' || status === 'success') {
       if (orderId) {
@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.redirect(`${baseUrl}/`, 303);
   } catch (err: any) {
     console.error('SSLCommerz Callback Error:', err);
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com';
+    const baseUrl = req.nextUrl?.origin || process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com';
     return NextResponse.redirect(`${baseUrl}/?payment=error`, 303);
   }
 }

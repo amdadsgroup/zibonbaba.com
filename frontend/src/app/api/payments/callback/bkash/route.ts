@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
   const status = searchParams.get('status');
   const orderId = searchParams.get('orderId');
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com';
+  const baseUrl = req.nextUrl?.origin || process.env.NEXT_PUBLIC_BASE_URL || 'https://zibonbaba.com';
 
   if (status === 'success' && orderId) {
     try {
