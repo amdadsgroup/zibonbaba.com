@@ -47,6 +47,7 @@ import { ReportsModule } from '@/components/admin/modules/reports-module';
 import { AuditModule } from '@/components/admin/modules/audit-module';
 import { SecurityModule } from '@/components/admin/modules/security-module';
 import { NotificationModule } from '@/components/admin/modules/notification-module';
+import { SettingsModule } from '@/components/admin/modules/settings-module';
 import { FuturePreviewModule } from '@/components/admin/modules/future-preview-module';
 
 import { Loader2 } from 'lucide-react';
@@ -610,6 +611,10 @@ function AdminContent() {
 
       {activeModule === 'notifications' && (
         <NotificationModule />
+      )}
+
+      {activeModule === 'settings' && (
+        <SettingsModule />
       )}
 
       {activeModule === 'future' && (
