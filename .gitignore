@@ -20,6 +20,7 @@ frontend/.vercel/
 dist/
 backend/dist/
 frontend/prisma/dist/
+*.tsbuildinfo
 
 # SQLite / Local dev databases
 *.db
