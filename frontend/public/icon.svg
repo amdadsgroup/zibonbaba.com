@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background Rounded Shield -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#goldGradient)" filter="url(#shadow)" />
+  
+  <!-- Subtle inner border highlight -->
+  <rect x="36" y="36" width="440" height="440" rx="108" fill="none" stroke="#FEF3C7" stroke-width="6" opacity="0.4" />
+  
+  <!-- Stylized Zibonbaba "Z" Lettermark -->
+  <path d="M 144 144 L 368 144 C 382 144 392 156 390 170 C 388 178 382 188 374 196 L 210 368 L 368 368 C 380 368 390 378 390 390 C 390 402 380 412 368 412 L 144 412 C 130 412 120 400 122 386 C 124 378 130 368 138 360 L 302 188 L 144 188 C 132 188 122 178 122 166 C 122 154 132 144 144 144 Z" fill="#0F172A" />
+</svg>

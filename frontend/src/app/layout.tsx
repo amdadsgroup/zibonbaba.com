@@ -15,6 +15,16 @@ export const metadata: Metadata = {
   title: 'Zibonbaba.com - Premium Multi-Vendor E-Commerce & SaaS ERP',
   description: 'Enterprise business management solution combining online multi-vendor retail market, barcode scanning POS, warehouse inventory syncing, CRM logs, and AI forecasting.',
   keywords: 'Zibonbaba, E-commerce, SaaS, POS system, Enterprise, Inventory management, CRM, Multi-vendor marketplace, Bangladesh',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180' },
+    ],
+    shortcut: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
@@ -25,6 +35,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${inter.variable}`}>
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#1F2937" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
